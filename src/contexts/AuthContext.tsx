@@ -1,8 +1,8 @@
 import { createContext, useContext, useState, useCallback, ReactNode } from 'react';
 
 const AUTH_KEY = 'portfolio_auth';
-const ADMIN_EMAIL = 'admin@alexrivera.dev';
-const ADMIN_PASSWORD = 'Admin@2024!';
+const ADMIN_EMAIL = 'aoraoscar06@gmail.com';
+const ADMIN_PASSWORD = 'Aoraberger1.$';
 
 interface AuthUser { email: string; role: 'owner'; }
 interface AuthContextType {

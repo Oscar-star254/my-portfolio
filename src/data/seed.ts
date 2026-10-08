@@ -15,8 +15,8 @@ export const SEED_DATA = {
     phone: "+254 758695620",
     location: "Kiambu, Nairobi",
     github: "https://github.com/Oscar-star254",
-    linkedin: "https://linkedin.com/in/alexrivera",
-    twitter: "https://twitter.com/alexrivera_dev",
+    linkedin: "https://linkedin.com/in/oscaraora",
+    twitter: "https://twitter.com/oscaraora_dev",
     resumeUrl: "/resume.pdf",
     resumeLabel: "Download Resume",
     resumeInfo: "PDF · 2 pages",
@@ -147,22 +147,22 @@ export const SEED_DATA = {
   testimonials: [
     {
       id: "1", name: "Jordan Kim", role: "VP Engineering, Vercel", avatar: "",
-      quote: "Alex has an exceptional ability to translate complex requirements into elegant, performant systems. They elevated the entire team's craft — a rare engineer who writes code that future maintainers actually thank them for.",
+      quote: "Oscar has an exceptional ability to translate complex requirements into elegant, performant systems. They elevated the entire team's craft — a rare engineer who writes code that future maintainers actually thank them for.",
       rating: 5, approved: true,
     },
     {
       id: "2", name: "Sarah Chen", role: "CTO, FlowPay", avatar: "",
-      quote: "We brought Alex in to rescue a floundering payments infrastructure. Within 3 months, transaction failures dropped 94% and we shipped features we'd been blocked on for a year. Exceptional ownership and delivery.",
+      quote: "We brought Oscar in to rescue a floundering payments infrastructure. Within 3 months, transaction failures dropped 94% and we shipped features we'd been blocked on for a year. Exceptional ownership and delivery.",
       rating: 5, approved: true,
     },
     {
       id: "3", name: "Marcus Thompson", role: "Product Director, Shopify", avatar: "",
-      quote: "What sets Alex apart is the combination of deep technical skill and genuine product intuition. They pushed back on scope creep in the best way — always protecting user experience and engineering quality simultaneously.",
+      quote: "What sets Oscar apart is the combination of deep technical skill and genuine product intuition. They pushed back on scope creep in the best way — always protecting user experience and engineering quality simultaneously.",
       rating: 5, approved: true,
     },
     {
       id: "4", name: "Priya Patel", role: "Lead Designer, Orbit UI", avatar: "",
-      quote: "Alex built our entire component library with pixel-perfect fidelity and WCAG AA compliance out of the box. The attention to accessibility details was impressive — we rarely needed to file design bugs.",
+      quote: "Oscar built our entire component library with pixel-perfect fidelity and WCAG AA compliance out of the box. The attention to accessibility details was impressive — we rarely needed to file design bugs.",
       rating: 5, approved: true,
     },
   ],
@@ -173,7 +173,7 @@ export const SEED_DATA = {
   }>,
 
   seo: {
-    title: "Alex Rivera — Full-Stack Developer",
+    title: "Oscar Aora — Full-Stack Developer",
     description: "Senior Full-Stack Developer specializing in React, Node.js, and cloud infrastructure. Building high-performance web applications from pixel to production.",
     ogImage: "",
     favicon: "",
