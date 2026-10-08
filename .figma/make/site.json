@@ -1,0 +1,10 @@
+{
+  "description": "Create a stunning personal portfolio website with a secure admin dashboard for professionals to showcase their work, manage content, and enhance their online presence.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
