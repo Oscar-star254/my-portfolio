@@ -1,11 +1,11 @@
 import { useState, FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth, ADMIN_EMAIL } from '../contexts/AuthContext';
+import { useAuth } from '../contexts/AuthContext';
 
 export default function AdminLogin() {
   const { login, isAuthenticated } = useAuth();
   const nav = useNavigate();
-  const [form, setForm] = useState({ email: ADMIN_EMAIL, password: '' });
+  const [form, setForm] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -55,7 +55,7 @@ export default function AdminLogin() {
                 value={form.email}
                 onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
                 className="input-field"
-                placeholder="admin@example.com"
+                placeholder="you@example.com"
                 autoComplete="email"
                 required
               />
@@ -98,12 +98,6 @@ export default function AdminLogin() {
               ) : 'Sign In →'}
             </button>
           </form>
-
-          <div className="mt-6 p-3 rounded-lg text-xs" style={{ background: 'rgba(124,92,255,0.08)', border: '1px solid rgba(124,92,255,0.15)', color: 'var(--muted-foreground)' }}>
-            <strong style={{ color: 'var(--violet)' }}>Default credentials:</strong><br />
-            Email: {ADMIN_EMAIL}<br />
-            Password: Admin@2024!
-          </div>
         </div>
 
         <div className="text-center mt-6">
